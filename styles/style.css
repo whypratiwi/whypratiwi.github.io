@@ -1,0 +1,145 @@
+img.media {
+    height: 30px;
+    width: 30px;
+}
+
+/*Star Body*/
+body{
+    background-color:rgb(221, 200, 103);
+    Color: rgb(59, 54, 54);
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 4;
+    padding: 4;
+}
+/*End Body*/
+
+/* Star Debug*/
+.bg-blue {
+    background-color: rgb(227, 230, 51);
+}
+
+.bg-red {
+    background-color:rgb(26, 126, 43);
+}
+/* End Debug*/
+
+/*Star Container*/
+.container{
+    margin: 10px auto;
+    overflow: Auto;
+    width: 95%;
+}
+
+.container-ull{
+    margin: 10px auto;
+    overflow: Auto;
+    width: 90%;
+}
+/* End Container */
+
+/* Star Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Star Anchor / Hyperlink*/
+a:link,
+a:visited{
+    color:red;
+    text-decoration: none;
+
+}
+a:hover,
+a:active {
+    color:white;
+    text-decoration: underline;
+
+}
+/* End Anchor / Hyperlink*/
+
+/* Star Menu Primer*/
+.menu-primer ul {
+    background-color: rgb(11, 150, 34);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgb(11, 150, 34),
+        0 6px 10px 0 rgb(45, 109, 56),
+        0 1px 18px 0 rgb(26, 126, 43);
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0-4px;
+}
+
+.menu-primer a {
+    color: whitesmoke;
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: rgb(227, 230, 51);
+    color:rgb(11, 150, 34);
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #f7f7f7;
+    color: black;
+    text-decoration: none;
+}
+/* End Menu Primer*/
+
+/*Star Heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Star Jumbotron */
+.jumbotron {
+    background-color:rgb(11, 150, 34);
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Star Box */
+
+/* End Box */
